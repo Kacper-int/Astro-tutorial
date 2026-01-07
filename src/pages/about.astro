@@ -24,7 +24,7 @@ const skillColor = "crimson";
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{pageTitle}</title>
-        <style>
+        <style define:vars={{skillColor}}>
             h1{
                 color: black;
                 font-size: 4rem;

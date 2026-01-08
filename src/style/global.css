@@ -72,8 +72,3 @@ p{
     display: none;
   }
 }
-.skill{
-  color: var(--skillColor);
-  font-weight: var(--fontWeig);
-  text-transform: var(--textTrans);
-}

@@ -3,7 +3,6 @@ import '../style/global.css';
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 const pageTitle = "Strona główna";
-const abc = Astro.props;
 ---
 
 <html lang="en">
@@ -26,9 +25,6 @@ const abc = Astro.props;
 		<h3>Zmiana 2</h3>
 		<h6>Zmiana ostatnia</h6>
 		<h1>Przejdź też na inne strony</h1>
-		<br>
-		<p>{abc}</p>
-		<br>
 		<Navigation/>
 		<Footer/>
 	</body>
